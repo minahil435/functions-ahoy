@@ -1,11 +1,34 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+// Inituialing variables
 
+let x = 3;
+let y = 10;
+let z = 4
+let greeting = 'hello';
+let firstName = 'Minahil';
+let callStatus = 'ringing';
 
-
-
- 
+// Decalaring functions
+function double(){
+  x = 2 * x ;
+}
+function triple(){
+  y = 3 * y;
+}
+function square(){
+  z = z * z;
+}
+function beNice(){
+  greeting = "hello " + firstName;
+}
+function changeName(){
+  firstName = 'Danger';
+}
+function hangUp(){
+  callStatus =  'call ended';
+}
 
 /*********************************************************************************************************************
 
